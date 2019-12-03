@@ -25,6 +25,45 @@ export namespace Components {
 
   interface AppRoot {}
   interface AppRootAttributes extends StencilHTMLAttributes {}
+
+  interface ComparisonPage {}
+  interface ComparisonPageAttributes extends StencilHTMLAttributes {}
+
+  interface TrendCard {
+    'trend': any;
+  }
+  interface TrendCardAttributes extends StencilHTMLAttributes {
+    'trend'?: any;
+  }
+
+  interface TrendCard2 {
+    'trend': any;
+  }
+  interface TrendCard2Attributes extends StencilHTMLAttributes {
+    'trend'?: any;
+  }
+
+  interface TweetCard {
+    'tweet': any;
+  }
+  interface TweetCardAttributes extends StencilHTMLAttributes {
+    'tweet'?: any;
+  }
+
+  interface EngStarter {
+    'config': any;
+    'firebaseConfig': any;
+  }
+  interface EngStarterAttributes extends StencilHTMLAttributes {
+    'config'?: any;
+    'firebaseConfig'?: any;
+  }
+
+  interface HelpModal {}
+  interface HelpModalAttributes extends StencilHTMLAttributes {}
+
+  interface MenuModal {}
+  interface MenuModalAttributes extends StencilHTMLAttributes {}
 }
 
 declare global {
@@ -32,12 +71,26 @@ declare global {
     'AppHome': Components.AppHome;
     'AppProfile': Components.AppProfile;
     'AppRoot': Components.AppRoot;
+    'ComparisonPage': Components.ComparisonPage;
+    'TrendCard': Components.TrendCard;
+    'TrendCard2': Components.TrendCard2;
+    'TweetCard': Components.TweetCard;
+    'EngStarter': Components.EngStarter;
+    'HelpModal': Components.HelpModal;
+    'MenuModal': Components.MenuModal;
   }
 
   interface StencilIntrinsicElements {
     'app-home': Components.AppHomeAttributes;
     'app-profile': Components.AppProfileAttributes;
     'app-root': Components.AppRootAttributes;
+    'comparison-page': Components.ComparisonPageAttributes;
+    'trend-card': Components.TrendCardAttributes;
+    'trend-card2': Components.TrendCard2Attributes;
+    'tweet-card': Components.TweetCardAttributes;
+    'eng-starter': Components.EngStarterAttributes;
+    'help-modal': Components.HelpModalAttributes;
+    'menu-modal': Components.MenuModalAttributes;
   }
 
 
@@ -59,16 +112,72 @@ declare global {
     new (): HTMLAppRootElement;
   };
 
+  interface HTMLComparisonPageElement extends Components.ComparisonPage, HTMLStencilElement {}
+  var HTMLComparisonPageElement: {
+    prototype: HTMLComparisonPageElement;
+    new (): HTMLComparisonPageElement;
+  };
+
+  interface HTMLTrendCardElement extends Components.TrendCard, HTMLStencilElement {}
+  var HTMLTrendCardElement: {
+    prototype: HTMLTrendCardElement;
+    new (): HTMLTrendCardElement;
+  };
+
+  interface HTMLTrendCard2Element extends Components.TrendCard2, HTMLStencilElement {}
+  var HTMLTrendCard2Element: {
+    prototype: HTMLTrendCard2Element;
+    new (): HTMLTrendCard2Element;
+  };
+
+  interface HTMLTweetCardElement extends Components.TweetCard, HTMLStencilElement {}
+  var HTMLTweetCardElement: {
+    prototype: HTMLTweetCardElement;
+    new (): HTMLTweetCardElement;
+  };
+
+  interface HTMLEngStarterElement extends Components.EngStarter, HTMLStencilElement {}
+  var HTMLEngStarterElement: {
+    prototype: HTMLEngStarterElement;
+    new (): HTMLEngStarterElement;
+  };
+
+  interface HTMLHelpModalElement extends Components.HelpModal, HTMLStencilElement {}
+  var HTMLHelpModalElement: {
+    prototype: HTMLHelpModalElement;
+    new (): HTMLHelpModalElement;
+  };
+
+  interface HTMLMenuModalElement extends Components.MenuModal, HTMLStencilElement {}
+  var HTMLMenuModalElement: {
+    prototype: HTMLMenuModalElement;
+    new (): HTMLMenuModalElement;
+  };
+
   interface HTMLElementTagNameMap {
     'app-home': HTMLAppHomeElement
     'app-profile': HTMLAppProfileElement
     'app-root': HTMLAppRootElement
+    'comparison-page': HTMLComparisonPageElement
+    'trend-card': HTMLTrendCardElement
+    'trend-card2': HTMLTrendCard2Element
+    'tweet-card': HTMLTweetCardElement
+    'eng-starter': HTMLEngStarterElement
+    'help-modal': HTMLHelpModalElement
+    'menu-modal': HTMLMenuModalElement
   }
 
   interface ElementTagNameMap {
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
     'app-root': HTMLAppRootElement;
+    'comparison-page': HTMLComparisonPageElement;
+    'trend-card': HTMLTrendCardElement;
+    'trend-card2': HTMLTrendCard2Element;
+    'tweet-card': HTMLTweetCardElement;
+    'eng-starter': HTMLEngStarterElement;
+    'help-modal': HTMLHelpModalElement;
+    'menu-modal': HTMLMenuModalElement;
   }
 
 

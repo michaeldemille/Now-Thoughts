@@ -1,0 +1,73 @@
+.trend-card-component {
+  width: 100%;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trend-card {
+  display: inline-flex !important;
+  height: 50px !important;
+  --background: rgba(255, 255, 255, 0.9) !important;
+  width: 100% !important;
+  /*align-content: center;*/
+  margin-top: 0px !important;
+  z-index: 1 !important;
+  position: relative !important;
+  padding-left: 15px !important;
+  font-size: 1.2em !important;
+  font-family: 'Open Sans' !important;
+  font-weight: 600 !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  color: #5E5E5E !important;
+  box-shadow: none !important;
+}
+
+.trend-card p {
+  margin-top: 10px;
+}
+
+.trend-score {
+  background: #39D2DB;
+  /*border: 2px solid #39D2DB;*/
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 10px 0px;
+  justify-items: end;
+  margin-right: 5px;
+  margin-left: auto;
+  height: 50px;
+  margin-top: -65px;
+  z-index: 10;
+  /*align-content: center;*/
+  position: relative;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  padding-left: 5px;
+  /*color: #5E5E5E;*/
+  color: #ffffff;
+
+  width: auto;
+  max-width: none;
+  display: inline-block;
+  float: right;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.trend-score p {
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.trend-arrow {
+  display: inline-block;
+  float: right;
+  height: 23px;
+  margin-top: -46px;
+  margin-right: -17px;
+  z-index: 20;
+  position: relative;
+}

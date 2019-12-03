@@ -5,7 +5,7 @@ import { Component, Prop, Listen } from '@stencil/core';
   styleUrl: 'app-root.css'
 })
 export class AppRoot {
-  
+
   @Prop({ connect: 'ion-toast-controller' }) toastCtrl: HTMLIonToastControllerElement;
 
   /**
@@ -34,7 +34,9 @@ export class AppRoot {
       <ion-app>
         <ion-router useHash={false}>
           <ion-route url="/" component="app-home" />
-          <ion-route url="/profile/:name" component="app-profile" />
+          <ion-route url="/home" component="app-home" />
+          <ion-route url="/comparison" component="comparison-page" />
+          <ion-route url="/profile" component="app-profile" />
         </ion-router>
         <ion-nav />
       </ion-app>

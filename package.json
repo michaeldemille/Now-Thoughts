@@ -12,10 +12,18 @@
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watch"
+    "test.watch": "stencil test --spec --e2e --watch",
+    "deployHosting": "npm run build && firebase use default && firebase deploy --only hosting",
+    "deployFunctions": "cd functions && firebase deploy --only functions"
   },
   "dependencies": {
-    "@ionic/core": "4.0.0-beta.12",
-    "@stencil/core": "0.13.2"
+    "@ionic/core": "4.0.0-beta.13",
+    "@stencil/core": "0.14.0",
+    "fetch": "^1.1.0",
+    "firebase": "^5.5.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "workbox-build": "3.4.1"
   }
 }

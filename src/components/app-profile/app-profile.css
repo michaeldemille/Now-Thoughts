@@ -1,0 +1,203 @@
+
+/*Backgrounds*/
+
+/*Golden Gate Bridge*/
+
+app-profile {
+  background: url("/assets/backgrounds/sfbridge.jpg") no-repeat 50%;
+  background-size: cover;
+}
+
+.profile-page {
+  --background: rgba(105, 105, 105, 0.5);
+}
+
+/*Mountain With Lake*/
+
+/*app-home {*/
+/*background: url("/assets/backgrounds/2kxeb_8g5vo-kazu-end2.jpg") no-repeat 50%;*/
+/*background-size: cover;*/
+/*}*/
+
+/*.home-page {*/
+/*--background: rgba(230, 230, 230, 0.3);;*/
+/*}*/
+
+
+/*Beach*/
+
+/*app-home {*/
+/*background: url("/assets/backgrounds/aaron-burden-168408.jpg") no-repeat 70%;*/
+/*background-size: cover;*/
+/*}*/
+
+/*.home-page {*/
+/*--background: rgba(135, 135, 135, 0.3);*/
+/*}*/
+
+/*Water*/
+
+/*app-home {*/
+/*background: url("/assets/backgrounds/6p6wdodvr2y-sebastien-gabriel.jpg") no-repeat 50%;*/
+/*background-size: cover;*/
+/*}*/
+
+/*.home-page {*/
+/*--background: rgba(92, 92, 92, 0.3);*/
+/*}*/
+
+
+/*Search Area*/
+
+.profile-page .searchbar .searchbar-input {
+  border-radius: 20px 0px 0px 0px;
+  box-shadow: none;
+}
+
+.profile-page .search-area {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.profile-page .searchbar {
+  width: 80%;
+  padding: 1px;
+  max-width: 550px;
+}
+
+.profile-page .search-button {
+  --background: #95E8ED;
+  --border-radius: 0px 20px 20px 0px;
+  --color: #5E5E5E;
+  --margin-top: 4px;
+  --height: 42px;
+  --width: 60px;
+  --box-shadow: none;
+  /*--background-activated: #FD7A5E;*/
+  --background-activated: #95E8ED;
+  font-family: 'Montserrat';
+}
+
+.profile-page .search-button .button-native {
+  height: 42px;
+}
+
+.profile-page .search-button img {
+  width: 60px;
+}
+
+.profile-page .header-image {
+  padding-top: 70px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.profile-page .search-caption {
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: calc(1em + 1vw);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans';
+}
+
+.profile-page .custom-loader ion-backdrop{
+  opacity: 0.2;
+}
+
+
+.profile-page .custom-loader .loading-wrapper {
+  background: transparent;
+  box-shadow: none;
+}
+
+/*@media (max-width: 600px) {*/
+.profile-page .searchbar-search-icon {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.profile-page .searchbar-input {
+  padding-left: 15px !important;
+}
+/*}*/
+
+.profile-page .login-input {
+  --background: rgba(255, 255, 255, 0.75);
+  margin-bottom: 25px;
+  max-width: 400px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.profile-page .button-area {
+  text-align: center;
+}
+
+.profile-page .login-button {
+  --padding-start: 45px;
+  --padding-end: 45px;
+  --background: #95E8ED;
+  --background-activated: #95E8ED;
+  --box-shadow: none;
+  --color: #5E5E5E;
+}
+
+.profile-page .link-area {
+  text-align: center;
+}
+
+.profile-page .link-area p {
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Open Sans';
+}
+
+.profile-page .profile-header {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.profile-page .profile-email {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.profile-page .error-message {
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  text-align: center;
+}
+
+.toast-error-message {
+  --background: #FF6954;
+  text-align: center;
+  font-size: 16px;
+}
+
+.toast-default-message {
+  --background: #95E8ED;
+  text-align: center;
+  font-size: 16px;
+  --color: #5E5E5E;
+}
+
