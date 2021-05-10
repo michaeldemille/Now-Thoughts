@@ -21,7 +21,7 @@
     "@stencil/core": "0.14.0",
     "fetch": "^1.1.0",
     "firebase": "^5.5.1",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "workbox-build": "3.4.1"
